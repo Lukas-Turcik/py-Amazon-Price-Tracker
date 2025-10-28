@@ -23,7 +23,7 @@ The application also writes the prices into the 'tracker.log' file where you can
     - pip install requests
     - pip install python-dotenv
     - pip install pandas
-- This project uses Gmail account for sending the email notification. You need to get the gmail [App Password](https://myaccount.google.com/apppasswords) for your Google Account.
+- This project uses Gmail account for sending the email notification. You need to get the gmail <a href="https://myaccount.google.com/apppasswords" target="_blank">App Password</a> for your Google Account.
 - open the .env file and populate the first three entries (email_address, email_password and recipients)
 - Fill in 'products_to_track.csv' with your price_limit, friendly name and URL
-- Schedule the 'price_tracker.py' to run on daily basis (e.g. using Windows Task Scheduler on your server or in the cloud using, e.g.  [pythonanywhere](https://www.pythonanywhere.com/)
+- Schedule the 'price_tracker.py' to run on daily basis (e.g. using Windows Task Scheduler on your server or in the cloud using, e.g.  <a href="https://www.pythonanywhere.com/" target="_blank">PythonAnywhere</a>)
